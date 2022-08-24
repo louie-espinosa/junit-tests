@@ -41,7 +41,8 @@ public class StudentTest {
         stud3.addGrade(90);
 
         assertEquals(3, stud3.getGrades().size());
-        assertTrue(stud3.getGrades().contains(Lists.newArrayList(75, 80, 90)));
+       // assertTrue(stud3.getGrades().contains(Lists.newArrayList(75, 80, 90)));
+        //assertSame(stud3.getGrades().)
         assertEquals(Lists.newArrayList(75, 80, 90), stud3.getGrades());
     }
 
